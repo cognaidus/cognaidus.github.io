@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cognaidus — The trusted knowledge layer for Snowflake AI</title>
-<meta name="description" content="Cognaidus turns knowledge discovered during Snowflake and Cortex investigations into trusted, reusable organizational context.">
+<title>Cognaidus — Persistent knowledge for Snowflake Cortex</title>
+<meta name="description" content="Cognaidus captures knowledge discovered during Snowflake Cortex investigations, governs it, and brings trusted context back into future investigations.">
 <meta name="theme-color" content="#071827">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
@@ -13,7 +13,7 @@
 <header class="nav">
   <div class="shell navin">
     <a href="#top" class="brand"><img src="assets/logo.svg" alt="Cognaidus"></a>
-    <nav><a href="#product">Product</a><a href="#trust">Trust</a><a href="#snowflake">Snowflake</a></nav>
+    <nav><a href="#capture">Capture</a><a href="#reuse">Reuse</a><a href="#trust">Trust</a><a href="#visibility">Product</a></nav>
     <a class="btn small" href="mailto:cognaidus@gmail.com?subject=Cognaidus%20demo">Request a demo</a>
   </div>
 </header>
@@ -24,143 +24,154 @@
     <div class="hero-copy reveal">
       <div class="eyebrow"><span></span> SNOWFLAKE-NATIVE KNOWLEDGE LAYER</div>
       <h1>What your AI learns<br><em>shouldn't disappear.</em></h1>
-      <p>Cognaidus turns knowledge discovered during Snowflake AI-assisted investigations into trusted, reusable organizational context — so every investigation can start with what your organization already knows.</p>
+      <p>Cognaidus captures knowledge discovered during Cortex investigations and brings trusted context back when it's relevant — so future investigations don't have to start from zero.</p>
       <div class="actions">
-        <a class="btn" href="#product">See the product</a>
+        <a class="btn" href="#reuse">See it in Cortex</a>
         <a class="btn ghost" href="mailto:cognaidus@gmail.com?subject=Cognaidus%20demo">Request a demo</a>
       </div>
-      <div class="proof"><b>Built for Snowflake</b><i></i><span>Powered by Cortex AI</span><i></i><span>Governed knowledge</span></div>
+      <div class="proof"><b>Built for Snowflake</b><i></i><span>Cortex AI</span><i></i><span>Governed knowledge</span></div>
     </div>
+
     <div class="loop-card reveal">
-      <div class="loop-label">YOUR SNOWFLAKE ENVIRONMENT</div>
-      <div class="loop-node source"><small>SNOWFLAKE + CORTEX</small><b>AI-assisted investigation</b><p>An engineer solves a real data problem.</p></div>
+      <div class="loop-label">THE COGNAIDUS KNOWLEDGE LOOP</div>
+      <div class="loop-node source"><small>1 · CORTEX INVESTIGATION</small><b>People solve real data problems</b><p>Business rules, caveats and relationships emerge in conversation.</p></div>
       <div class="down">↓</div>
-      <div class="loop-core"><img src="assets/mark.svg" alt=""><div><small>COGNAIDUS</small><b>Learn → Ground → Verify</b></div></div>
+      <div class="loop-core"><img src="assets/mark.svg" alt=""><div><small>2 · COGNAIDUS</small><b>Capture → Ground → Govern</b></div></div>
       <div class="down amber">↓</div>
-      <div class="loop-node trusted"><small>TRUSTED KNOWLEDGE</small><b>Reusable organizational context</b><p>Returned to the next relevant investigation.</p></div>
-      <div class="return">↺ knowledge compounds over time</div>
+      <div class="loop-node trusted"><small>3 · TRUSTED KNOWLEDGE</small><b>Durable organizational context</b><p>Evidence and confidence persist beyond the original conversation.</p></div>
+      <div class="return">↺ 4 · retrieved into future Cortex investigations</div>
     </div>
   </div>
 </section>
 
 <section class="problem light">
   <div class="shell compact two">
-    <div class="reveal"><div class="kicker">THE PROBLEM</div><h2>Your engineers are teaching AI valuable things about your data every day.</h2></div>
-    <div class="reveal"><p class="lead">Cortex can help an engineer spend hours uncovering business rules, caveats and important context. When the conversation ends, much of that knowledge disappears — and the next engineer or AI agent starts over.</p>
-      <div class="mini-flow"><span>Investigation</span><b>→</b><span>Discovery</span><b>→</b><span class="fade">Conversation ends</span><b>→</b><span class="warn">Knowledge lost</span></div>
+    <div class="reveal">
+      <div class="kicker">THE PROBLEM</div>
+      <h2>Cortex can solve the problem today. What happens to what it learned tomorrow?</h2>
+    </div>
+    <div class="reveal">
+      <p class="lead">AI-assisted investigations uncover knowledge that isn't obvious from schema or metadata alone: business rules, exceptions, semantics, relationships and warnings. Too often, that context remains trapped in one conversation.</p>
+      <div class="loss-flow"><span>Engineer investigates</span><b>→</b><span>Cortex learns context</span><b>→</b><span class="lost">Conversation ends</span></div>
+      <p class="loss-note">The next engineer — or AI agent — may have to rediscover it.</p>
     </div>
   </div>
 </section>
 
-<section class="lifecycle light">
+<section id="capture" class="capture dark">
   <div class="shell compact">
-    <div class="section-head reveal"><div class="kicker">HOW IT WORKS</div><h2>From investigation to organizational knowledge.</h2><p>Cognaidus learns from real AI-assisted work, then applies a trust lifecycle before that knowledge is reused.</p></div>
-    <div class="steps">
-      <article class="reveal"><small>01</small><h3>Discover</h3><p>Identify durable knowledge emerging from real investigations.</p></article>
-      <article class="reveal"><small>02</small><h3>Ground</h3><p>Connect claims to the assets, SQL and evidence behind them.</p></article>
-      <article class="reveal"><small>03</small><h3>Verify</h3><p>Reconcile new discoveries with existing organizational knowledge.</p></article>
-      <article class="trusted-step reveal"><small>04</small><h3>Reuse</h3><p>Return established context to future humans and AI agents.</p></article>
+    <div class="section-head reveal">
+      <div class="kicker">CAPTURE WHAT CORTEX LEARNS</div>
+      <h2>Turn investigation history into durable organizational knowledge.</h2>
+      <p>Cognaidus works behind the investigation. It identifies useful discoveries, connects them to the relevant Snowflake assets, preserves supporting evidence, and reconciles them with what the organization already knows.</p>
+    </div>
+    <div class="capture-flow reveal">
+      <article><small>01</small><b>Cortex investigation</b><span>Engineers solve real problems against Snowflake data.</span></article>
+      <i>→</i>
+      <article><small>02</small><b>Discover</b><span>Durable business rules, caveats and semantics are identified.</span></article>
+      <i>→</i>
+      <article><small>03</small><b>Ground</b><span>Knowledge is tied back to assets, evidence and provenance.</span></article>
+      <i>→</i>
+      <article><small>04</small><b>Reconcile</b><span>New discoveries are compared with existing knowledge.</span></article>
+      <i>→</i>
+      <article class="gold"><small>05</small><b>Govern</b><span>Confidence and lifecycle preserve what can be trusted.</span></article>
     </div>
   </div>
 </section>
 
-<section id="product" class="product dark">
+<section class="example light">
   <div class="shell compact">
-    <div class="product-intro reveal">
-      <div><div class="kicker">COGNAIDUS IN ACTION</div><h2>Turn everyday Cortex investigations into organizational knowledge.</h2></div>
-      <p>Cognaidus observes AI-assisted data investigations, identifies durable discoveries, grounds them in evidence, reconciles them with what your organization already knows, and builds trusted knowledge automatically.</p>
+    <div class="example-grid">
+      <div class="reveal">
+        <div class="kicker">AN EXAMPLE</div>
+        <h2>One investigation uncovers a rule worth keeping.</h2>
+        <p>Imagine an engineer investigating customer accounts migrated by an internal project called <strong>Project PHOENIX</strong>. During the Cortex investigation, they discover an important identifier rule.</p>
+      </div>
+      <div class="rule-card reveal">
+        <small>DISCOVERED DURING AN INVESTIGATION</small>
+        <p>For PHOENIX-migrated accounts, use <code>LEGACY_ID</code> as the fallback external identifier when <code>SOURCE_ID</code> is not populated.</p>
+        <div class="rule-path"><span>Captured</span><b>→</b><span>Evidence gathered</span><b>→</b><span class="established">Established</span></div>
+      </div>
     </div>
-    <div class="product-process reveal">
-      <span>Cortex conversation</span><i>→</i><span>Investigation episode</span><i>→</i><span>Discoveries</span><i>→</i><span>Evidence</span><i>→</i><span class="process-trust">Trust</span><i>→</i><span class="process-reuse">Reuse</span>
+  </div>
+</section>
+
+<section id="reuse" class="reuse light">
+  <div class="shell compact">
+    <div class="reuse-head reveal">
+      <div class="kicker">KNOWLEDGE COMES BACK WHEN IT MATTERS</div>
+      <h2>The next Cortex investigation doesn't start from zero.</h2>
+      <p>When a later investigation touches relevant data, Cognaidus makes established organizational knowledge available to Cortex. The engineer asks a normal question; previous knowledge can become context for the answer.</p>
     </div>
-    <div class="result-label reveal"><small>THE RESULT</small><b>A continuously evolving knowledge layer</b><p>New discoveries emerge automatically. Evidence builds confidence. Contradictions are surfaced. Established knowledge becomes reusable context.</p></div>
-    <figure class="screen hero-screen reveal">
-      <div class="screenbar"><span></span><span></span><span></span><b>Cognaidus · Knowledge Catalogue</b></div>
-      <img src="assets/product/overview.png" alt="Cognaidus Knowledge Catalogue overview showing learned knowledge and contradictions">
+
+    <div class="reuse-steps reveal">
+      <div><b>1</b><span><strong>Ask normally</strong>The engineer investigates the data without searching old conversations.</span></div>
+      <i>→</i>
+      <div><b>2</b><span><strong>Retrieve context</strong>Cortex retrieves relevant governed knowledge through Cognaidus.</span></div>
+      <i>→</i>
+      <div><b>3</b><span><strong>Apply what was learned</strong>The established rule informs the new answer.</span></div>
+    </div>
+
+    <figure class="cortex-proof reveal">
+      <div class="proof-frame-label"><span>LIVE PRODUCT FLOW</span><b>Cortex retrieving previously established knowledge</b></div>
+      <img src="assets/product/cortex-knowledge-retrieval.png" alt="Snowflake Cortex retrieving established governed knowledge for CUSTOMER_ACCOUNT and applying the Project PHOENIX identifier rule">
+      <figcaption>In this demonstration, Cortex retrieves an established business rule previously captured by Cognaidus and applies it to a new investigation of <code>CUSTOMER_ACCOUNT</code>.</figcaption>
     </figure>
-    <div class="screen-notes">
-      <div><b>Knowledge emerges automatically</b><span>New discoveries appear as engineers solve real problems.</span></div>
-      <div><b>Trust is explicit</b><span>Established, discovered and disputed knowledge remain distinguishable.</span></div>
-      <div><b>Conflicts become visible</b><span>Contradicting evidence is surfaced instead of disappearing inside conversations.</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="phoenix light">
-  <div class="shell compact">
-    <div class="example-intro reveal">
-      <div class="kicker">AN EXAMPLE</div>
-      <h2>See how one discovery becomes organizational knowledge.</h2>
-      <p>Imagine an engineer is investigating customer accounts migrated by an internal project called <strong>Project PHOENIX</strong>. During the Cortex investigation, they uncover an important business rule:</p>
-      <div class="example-rule">When <code>SOURCE_ID</code> isn't populated for a PHOENIX-migrated account, <code>LEGACY_ID</code> should be used as the fallback identifier.</div>
-      <p class="example-close">Normally, that knowledge could remain buried in the conversation. Here's what Cognaidus does with it.</p>
-    </div>
-    <div class="story">
-      <div class="storyline reveal">
-        <article><small>01 · DISCOVER</small><h3>The engineer discovers it</h3><p>During a Cortex investigation, the engineer uncovers the identifier fallback rule.</p></article>
-        <article><small>02 · CAPTURE</small><h3>Cognaidus captures it</h3><p>The discovery becomes candidate organizational knowledge associated with <code>CUSTOMER_ACCOUNT</code>.</p></article>
-        <article><small>03 · VERIFY</small><h3>Evidence builds trust</h3><p>Cognaidus grounds and reconciles the claim. In this demo, it is supported by five independent sources.</p></article>
-        <article><small>04 · ESTABLISH</small><h3>Knowledge becomes established</h3><p>The rule reaches <strong>Established · 100% confidence</strong> in the demonstration environment.</p></article>
-        <article class="gold"><small>05 · REUSE</small><h3>The organization reuses it</h3><p>When future work touches the relevant Snowflake data, the established rule can be retrieved as context instead of rediscovered.</p></article>
-      </div>
-      <div class="claim reveal">
-        <div class="claimtop"><span>ESTABLISHED</span><b>100%</b></div>
-        <blockquote>For accounts migrated via Project PHOENIX, the <strong>LEGACY_ID</strong> serves as the external identifier (fallback) when <strong>SOURCE_ID</strong> is not populated.</blockquote>
-        <div class="claimfoot">Example business rule · 5 independent sources · Customer Account</div>
-      </div>
-    </div>
   </div>
 </section>
 
 <section id="trust" class="trust dark">
   <div class="shell compact trust-grid">
     <div class="reveal">
-      <div class="kicker">TRUST, NOT JUST MEMORY</div>
-      <h2>AI discoveries aren't automatically truth.</h2>
-      <p class="muted">Cognaidus preserves the difference between something AI noticed and something the organization should rely on.</p>
-      <ul class="trust-points">
-        <li><b>Evidence-backed</b><span>Keep the observations and provenance behind a claim.</span></li>
-        <li><b>Conflict-aware</b><span>Compare new discoveries with what the organization already believes.</span></li>
-        <li><b>Verifiable</b><span>Test claims against schema and data evidence where possible.</span></li>
-      </ul>
+      <div class="kicker">TRUST BEFORE REUSE</div>
+      <h2>AI discoveries aren't automatically organizational truth.</h2>
+      <p>Capturing a statement is easy. Deciding whether future engineers and agents should rely on it is the harder problem.</p>
     </div>
-    <figure class="screen reveal">
+    <div class="trust-cards reveal">
+      <article><span>01</span><b>Evidence</b><p>Preserve why the claim exists and where it came from.</p></article>
+      <article><span>02</span><b>Reconciliation</b><p>Compare new discoveries with existing organizational knowledge.</p></article>
+      <article><span>03</span><b>Verification</b><p>Validate against schema and data evidence where possible.</p></article>
+      <article class="trust-gold"><span>04</span><b>Confidence</b><p>Distinguish emerging knowledge from established or disputed claims.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="loop-section dark">
+  <div class="shell compact">
+    <div class="section-head reveal">
+      <div class="kicker">THE FEEDBACK LOOP</div>
+      <h2>Each investigation can make the next one better.</h2>
+    </div>
+    <div class="feedback reveal">
+      <div><small>SNOWFLAKE + CORTEX</small><b>Investigate</b><span>Real work uncovers useful context.</span></div><i>→</i>
+      <div><small>COGNAIDUS</small><b>Capture</b><span>Discoveries become grounded candidate knowledge.</span></div><i>→</i>
+      <div><small>TRUST LIFECYCLE</small><b>Govern</b><span>Evidence, conflicts and confidence determine trust.</span></div><i>→</i>
+      <div class="feedback-gold"><small>FUTURE CORTEX WORK</small><b>Retrieve</b><span>Relevant trusted context comes back into the investigation.</span></div>
+    </div>
+    <div class="loopback">↖ &nbsp; New investigations create more knowledge, and the loop continues.</div>
+  </div>
+</section>
+
+<section id="visibility" class="visibility light">
+  <div class="shell compact visibility-grid">
+    <div class="reveal">
+      <div class="kicker">VISIBILITY &amp; GOVERNANCE</div>
+      <h2>See what Cognaidus has learned.</h2>
+      <p>The management interface isn't where knowledge is created. It's where teams can inspect what Cognaidus has captured, understand why it is trusted, review conflicts, and see how organizational knowledge is evolving.</p>
+      <div class="feature-chips"><span>Knowledge explorer</span><span>Evidence &amp; provenance</span><span>Living catalogue</span><span>Pipeline health</span></div>
+    </div>
+    <figure class="mini-screen reveal">
       <div class="screenbar"><span></span><span></span><span></span><b>Cognaidus · Knowledge Explorer</b></div>
-      <img src="assets/product/knowledge-explorer.png" alt="Cognaidus Knowledge Explorer showing established and discovered claims with confidence">
+      <img src="assets/product/knowledge-explorer.png" alt="Cognaidus management interface showing organizational knowledge">
     </figure>
   </div>
 </section>
 
-<section class="catalogue light">
-  <div class="shell compact">
-    <div class="product-intro reveal">
-      <div><div class="kicker">A LIVING DATA CATALOGUE</div><h2>Documentation improves while people solve real problems.</h2></div>
-      <p>Knowledge isn't generated only from metadata or usage patterns. It comes from the real business rules, caveats and relationships uncovered during investigations.</p>
-    </div>
-    <div class="catalogue-grid">
-      <figure class="screen reveal"><div class="screenbar"><span></span><span></span><span></span><b>Generated documentation</b></div><img src="assets/product/catalogue-top.png" alt="Cognaidus data catalogue generated documentation"></figure>
-      <figure class="screen reveal"><div class="screenbar"><span></span><span></span><span></span><b>Organizational knowledge</b></div><img src="assets/product/catalogue-knowledge.png" alt="Cognaidus catalogue organizational knowledge claims"></figure>
-    </div>
-  </div>
-</section>
-
-<section id="snowflake" class="snowflake dark">
-  <div class="shell compact">
-    <div class="section-head reveal"><div class="kicker">BUILT INSIDE THE SNOWFLAKE ECOSYSTEM</div><h2>The feedback loop is the product.</h2><p>Cognaidus is designed to make each relevant Snowflake investigation better informed by what previous investigations established.</p></div>
-    <div class="feedback reveal">
-      <div><small>SNOWFLAKE + CORTEX</small><b>Investigate</b><span>Real data work produces discoveries.</span></div><i>→</i>
-      <div><small>COGNAIDUS</small><b>Learn</b><span>Extract and ground candidate knowledge.</span></div><i>→</i>
-      <div><small>TRUST LIFECYCLE</small><b>Verify</b><span>Reconcile evidence, conflicts and confidence.</span></div><i>→</i>
-      <div class="feedback-gold"><small>ORGANIZATIONAL KNOWLEDGE</small><b>Reuse</b><span>Trusted context returns to future work.</span></div>
-    </div>
-    <div class="loopback reveal">↖ &nbsp; The next Cortex investigation starts with what your organization already knows.</div>
-  </div>
-</section>
-
-<section class="difference dark">
-  <div class="shell compact diff-grid">
-    <div class="reveal"><div class="kicker">A DIFFERENT LAYER</div><h2>Data catalogues know what your data <em>is.</em></h2></div>
-    <div class="reveal"><div class="accent"></div><h2>Cognaidus learns what your engineers and AI <em>discover about it.</em></h2><p>Schema, lineage and ownership matter. Cognaidus adds the hard-won business rules, caveats, evidence and conclusions discovered while people actually use the data.</p></div>
+<section class="difference light">
+  <div class="shell compact difference-in reveal">
+    <div class="kicker">BEYOND METADATA</div>
+    <h2>Data catalogues know what your data <em>is.</em><br>Cognaidus learns what your engineers and AI <strong>discover about it.</strong></h2>
+    <p>Schema, lineage and ownership still matter. Cognaidus adds the hard-won business rules, caveats, evidence and conclusions that emerge while people actually investigate the data — and makes that knowledge reusable.</p>
   </div>
 </section>
 
@@ -168,8 +179,8 @@
   <div class="shell compact cta-in reveal">
     <img src="assets/mark.svg" alt="">
     <div class="kicker">COGNAIDUS FOR SNOWFLAKE</div>
-    <h2>Stop rediscovering what your organization already learned.</h2>
-    <p>See the working Cognaidus knowledge loop in action.</p>
+    <h2>Don't make your AI rediscover what your organization already learned.</h2>
+    <p>See the Cortex → knowledge → Cortex feedback loop in action.</p>
     <a class="btn amber-btn" href="mailto:cognaidus@gmail.com?subject=Cognaidus%20demo">Request a demo</a>
     <a class="email" href="mailto:cognaidus@gmail.com">cognaidus@gmail.com</a>
   </div>

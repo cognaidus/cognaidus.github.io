@@ -1,15 +1,15 @@
-# Cognaidus website — v4
+# Cognaidus website — v5
 
-Snowflake-first landing page using real Cognaidus product screenshots.
+V5 refocuses the landing page on the core Cognaidus product loop:
 
-v4 clarifies the core product story:
-- Cognaidus in Action focuses on the autonomous investigation-to-knowledge pipeline.
-- The product dashboard is framed as the result, not the product itself.
-- Project PHOENIX is explicitly introduced as a demonstration example before it is referenced.
-- The example walks through Discover → Capture → Verify → Establish → Reuse.
+Cortex investigation → knowledge capture → grounding/governance → trusted knowledge → retrieval into future Cortex investigations.
+
+The Snowflake Cortex retrieval screenshot is now the primary product proof. The Streamlit management UI is intentionally a smaller subsection near the end of the page.
 
 ## Deploy
 Upload the contents of this archive directly to the root of:
 `cognaidus/cognaidus.github.io`
+
+Keep the existing Cognaidus brand SVG assets if your repository already contains them.
 
 Contact: cognaidus@gmail.com
