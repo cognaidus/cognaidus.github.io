@@ -1,6 +1,7 @@
-# Cognaidus website
-Static GitHub Pages landing site for Cognaidus.
+# Cognaidus website — v2
 
-Publish from **Settings → Pages → Deploy from a branch → main → /(root)**.
+Snowflake-first static landing page for Cognaidus.
 
-Before launch, replace `hello@cognaidus.com` with the email address you want to use.
+Public contact: `cognaidus@gmail.com`
+
+Publish the files in this archive directly to the root of `cognaidus/cognaidus.github.io`.
