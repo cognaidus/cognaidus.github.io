@@ -138,3 +138,22 @@ footer{padding:24px 0;background:#05111c;border-top:1px solid rgba(255,255,255,.
 .cortex-proof img{width:824px;max-width:100%;height:auto;image-rendering:auto}
 @media(max-width:900px){.problem-simple{grid-template-columns:1fr;gap:28px}}
 @media(max-width:560px){.problem-flow{flex-direction:column;align-items:flex-start}.problem-flow b{transform:rotate(90deg);margin-left:16px}}
+
+/* Center the complete Cortex proof block relative to the page/section. */
+.cortex-proof{
+  display:block;
+  width:824px;
+  max-width:100%;
+  margin:0 auto !important;
+  padding:0;
+  float:none;
+  position:relative;
+  left:auto;
+  right:auto;
+}
+.cortex-proof img{
+  display:block;
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
