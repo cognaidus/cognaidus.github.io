@@ -299,3 +299,31 @@ section[style*="background: #0"] .kicker{
   color:inherit;
   font-weight:800;
 }
+
+/* Hero contrast refinements */
+.hero .eyebrow,
+.hero .kicker,
+.hero .section-kicker{
+  color:#93C5FD !important;
+  font-weight:800 !important;
+}
+
+/* On the dark hero, emphasis comes from a cleaner/brighter white rather than heavier bold. */
+.hero-bright{
+  color:#FFFFFF !important;
+  font-weight:600 !important;
+}
+
+/* Keep the surrounding hero description slightly softer so the highlighted phrases stand out. */
+.hero-copy > p,
+.hero-copy .lead,
+.hero > div > p{
+  color:#CBD5E1;
+}
+
+/* Prevent the earlier generic strong rule from making hero copy overly heavy. */
+.hero-copy p strong,
+.hero p strong{
+  color:#FFFFFF;
+  font-weight:600 !important;
+}
