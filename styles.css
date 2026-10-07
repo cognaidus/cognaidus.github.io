@@ -222,3 +222,30 @@ section[id]{scroll-margin-top:68px}
   display:block !important;
   background:transparent !important;
 }
+
+/* Approved dark-header logo treatment */
+.brand{
+  display:flex;
+  align-items:center;
+}
+.brand img{
+  width:auto !important;
+  height:42px !important;
+  max-width:205px !important;
+  display:block !important;
+  object-fit:contain !important;
+  object-position:left center !important;
+  background:transparent !important;
+  filter:none !important;
+  opacity:1 !important;
+}
+.foot img{
+  width:auto !important;
+  height:36px !important;
+  max-width:190px !important;
+  display:block !important;
+  object-fit:contain !important;
+  background:transparent !important;
+  filter:none !important;
+  opacity:1 !important;
+}
