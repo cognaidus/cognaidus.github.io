@@ -334,3 +334,11 @@ section[style*="background: #0"] .kicker{
   color:#0B1F33 !important;
   font-weight:600 !important;
 }
+
+/* Match hero-copy emphasis hierarchy on light sections:
+   normal copy stays muted; emphasized phrases become crisp/high-contrast,
+   using the same restrained 600 weight as the hero. */
+.matched-emphasis{
+  color:#0B1F33 !important;
+  font-weight:600 !important;
+}
