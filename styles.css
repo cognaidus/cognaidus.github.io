@@ -157,3 +157,10 @@ footer{padding:24px 0;background:#05111c;border-top:1px solid rgba(255,255,255,.
   height:auto;
   margin:0 auto;
 }
+
+/* Optical alignment: move Cortex proof slightly left to align with section content. */
+@media (min-width: 901px){
+  .cortex-proof{
+    transform:translateX(-38px);
+  }
+}
