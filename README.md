@@ -1,15 +1,13 @@
-# Cognaidus website — v5
+# Cognaidus website — v5 knowledge-loop update
 
-V5 refocuses the landing page on the core Cognaidus product loop:
+This build integrates the new six-stage Cognaidus Knowledge Loop visual directly into the hero:
 
-Cortex investigation → knowledge capture → grounding/governance → trusted knowledge → retrieval into future Cortex investigations.
+Cortex Investigation → Capture → Ground → Govern → Trusted Knowledge → Reuse → back into future investigations.
 
-The Snowflake Cortex retrieval screenshot is now the primary product proof. The Streamlit management UI is intentionally a smaller subsection near the end of the page.
+The rest of V5 remains focused on knowledge capture and reuse, with the real Cortex retrieval screenshot as primary product proof and the Streamlit UI as a smaller visibility/governance subsection.
 
 ## Deploy
 Upload the contents of this archive directly to the root of:
 `cognaidus/cognaidus.github.io`
-
-Keep the existing Cognaidus brand SVG assets if your repository already contains them.
 
 Contact: cognaidus@gmail.com
