@@ -67,9 +67,13 @@
 <section id="product" class="product dark">
   <div class="shell compact">
     <div class="product-intro reveal">
-      <div><div class="kicker">A WORKING PRODUCT</div><h2>See what your organization has learned.</h2></div>
-      <p>Cognaidus continuously turns real Cortex investigations into a living knowledge layer around your Snowflake data.</p>
+      <div><div class="kicker">COGNAIDUS IN ACTION</div><h2>Turn everyday Cortex investigations into organizational knowledge.</h2></div>
+      <p>Cognaidus observes AI-assisted data investigations, identifies durable discoveries, grounds them in evidence, reconciles them with what your organization already knows, and builds trusted knowledge automatically.</p>
     </div>
+    <div class="product-process reveal">
+      <span>Cortex conversation</span><i>→</i><span>Investigation episode</span><i>→</i><span>Discoveries</span><i>→</i><span>Evidence</span><i>→</i><span class="process-trust">Trust</span><i>→</i><span class="process-reuse">Reuse</span>
+    </div>
+    <div class="result-label reveal"><small>THE RESULT</small><b>A continuously evolving knowledge layer</b><p>New discoveries emerge automatically. Evidence builds confidence. Contradictions are surfaced. Established knowledge becomes reusable context.</p></div>
     <figure class="screen hero-screen reveal">
       <div class="screenbar"><span></span><span></span><span></span><b>Cognaidus · Knowledge Catalogue</b></div>
       <img src="assets/product/overview.png" alt="Cognaidus Knowledge Catalogue overview showing learned knowledge and contradictions">
@@ -84,18 +88,25 @@
 
 <section class="phoenix light">
   <div class="shell compact">
-    <div class="section-head reveal"><div class="kicker">ONE INVESTIGATION. KNOWLEDGE THAT DOESN'T DISAPPEAR.</div><h2>From Project PHOENIX discovery to trusted context.</h2></div>
+    <div class="example-intro reveal">
+      <div class="kicker">AN EXAMPLE</div>
+      <h2>See how one discovery becomes organizational knowledge.</h2>
+      <p>Imagine an engineer is investigating customer accounts migrated by an internal project called <strong>Project PHOENIX</strong>. During the Cortex investigation, they uncover an important business rule:</p>
+      <div class="example-rule">When <code>SOURCE_ID</code> isn't populated for a PHOENIX-migrated account, <code>LEGACY_ID</code> should be used as the fallback identifier.</div>
+      <p class="example-close">Normally, that knowledge could remain buried in the conversation. Here's what Cognaidus does with it.</p>
+    </div>
     <div class="story">
       <div class="storyline reveal">
-        <article><small>01 · INVESTIGATE</small><h3>Cortex investigation</h3><p>An engineer discovers special identifier behavior for accounts migrated through Project PHOENIX.</p></article>
-        <article><small>02 · LEARN</small><h3>Candidate knowledge</h3><p>Cognaidus extracts the relationship between <code>SOURCE_ID</code>, <code>LEGACY_ID</code> and the migration context.</p></article>
-        <article><small>03 · ESTABLISH</small><h3>Evidence builds trust</h3><p>The rule is supported by five independent sources and becomes established knowledge.</p></article>
-        <article class="gold"><small>04 · REUSE</small><h3>The next investigation knows</h3><p>Trusted context is available when future work touches the corresponding Snowflake asset.</p></article>
+        <article><small>01 · DISCOVER</small><h3>The engineer discovers it</h3><p>During a Cortex investigation, the engineer uncovers the identifier fallback rule.</p></article>
+        <article><small>02 · CAPTURE</small><h3>Cognaidus captures it</h3><p>The discovery becomes candidate organizational knowledge associated with <code>CUSTOMER_ACCOUNT</code>.</p></article>
+        <article><small>03 · VERIFY</small><h3>Evidence builds trust</h3><p>Cognaidus grounds and reconciles the claim. In this demo, it is supported by five independent sources.</p></article>
+        <article><small>04 · ESTABLISH</small><h3>Knowledge becomes established</h3><p>The rule reaches <strong>Established · 100% confidence</strong> in the demonstration environment.</p></article>
+        <article class="gold"><small>05 · REUSE</small><h3>The organization reuses it</h3><p>When future work touches the relevant Snowflake data, the established rule can be retrieved as context instead of rediscovered.</p></article>
       </div>
       <div class="claim reveal">
         <div class="claimtop"><span>ESTABLISHED</span><b>100%</b></div>
         <blockquote>For accounts migrated via Project PHOENIX, the <strong>LEGACY_ID</strong> serves as the external identifier (fallback) when <strong>SOURCE_ID</strong> is not populated.</blockquote>
-        <div class="claimfoot">Business rule · 5 independent sources · Customer Account</div>
+        <div class="claimfoot">Example business rule · 5 independent sources · Customer Account</div>
       </div>
     </div>
   </div>
