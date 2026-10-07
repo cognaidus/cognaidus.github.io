@@ -327,3 +327,10 @@ section[style*="background: #0"] .kicker{
   color:#FFFFFF;
   font-weight:600 !important;
 }
+
+/* Cleaner emphasis for body copy on light backgrounds:
+   darker/clearer rather than chunky bold. */
+.copy-emphasis{
+  color:#0B1F33 !important;
+  font-weight:600 !important;
+}
