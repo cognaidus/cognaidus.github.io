@@ -171,3 +171,16 @@ footer{padding:24px 0;background:#05111c;border-top:1px solid rgba(255,255,255,.
     transform:translateX(-110px) !important;
   }
 }
+
+/* Correct alignment fix.
+   Do not use transform here: .reveal.visible resets transform to none.
+   Align the proof block to the LEFT EDGE of the reuse content column. */
+@media (min-width: 901px){
+  .reuse .cortex-proof{
+    width:824px !important;
+    max-width:824px !important;
+    margin-left:0 !important;
+    margin-right:auto !important;
+    transform:none !important;
+  }
+}
