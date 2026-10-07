@@ -92,3 +92,34 @@ footer{padding:24px 0;background:#05111c;border-top:1px solid rgba(255,255,255,.
   .hero-stack .hero-copy{max-width:680px}
   .hero-stack .loop-visual{margin-top:32px!important;max-width:100%}
 }
+
+/* Final hero layout fix: the diagram is a full-width second row.
+   Explicit flex sizing avoids percentage width collapsing to its intrinsic size. */
+.hero-stack{width:100%}
+.hero-stack .loop-visual{
+  align-self:stretch!important;
+  width:auto!important;
+  max-width:none!important;
+  margin:44px 0 0!important;
+}
+.hero-stack .loop-visual img{
+  display:block;
+  width:100%!important;
+  max-width:none!important;
+  max-height:none!important;
+  height:auto!important;
+  object-fit:contain;
+}
+@media(min-width:1100px){
+  .hero-stack .loop-visual{
+    width:calc(100% + 110px)!important;
+    margin-left:-55px!important;
+    margin-right:-55px!important;
+  }
+}
+@media(max-width:900px){
+  .hero-stack .loop-visual{
+    width:auto!important;
+    margin:32px 0 0!important;
+  }
+}
