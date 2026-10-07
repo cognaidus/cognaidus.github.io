@@ -249,3 +249,14 @@ section[id]{scroll-margin-top:68px}
   filter:none !important;
   opacity:1 !important;
 }
+
+/* Brand-semantic headline emphasis:
+   blue = discovery / capture / reuse; amber = trust / verification. */
+h2 .accent-blue,
+h1 .accent-blue{
+  color:#2563EB;
+}
+h2 .accent-amber,
+h1 .accent-amber{
+  color:#F59E0B;
+}
