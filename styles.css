@@ -215,3 +215,19 @@ section[id]{scroll-margin-top:68px}
   object-fit:contain;
   display:block;
 }
+
+/* Exact logo extracted from the Cognaidus Gradient Brand Identity Board website example. */
+.brand img{
+  width:136px !important;
+  height:47px !important;
+  object-fit:contain !important;
+  object-position:left center !important;
+  display:block !important;
+}
+.foot img{
+  width:136px !important;
+  height:47px !important;
+  object-fit:contain !important;
+  object-position:left center !important;
+  display:block !important;
+}
