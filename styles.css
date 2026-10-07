@@ -342,3 +342,19 @@ section[style*="background: #0"] .kicker{
   color:#0B1F33 !important;
   font-weight:600 !important;
 }
+
+/* Fix emphasis inside dark sections */
+.dark .matched-emphasis,
+section.dark .matched-emphasis,
+.capture .matched-emphasis,
+#capture .matched-emphasis{
+  color:#FFFFFF !important;
+  font-weight:600 !important;
+}
+
+/* Keep the surrounding capture copy softly visible, like the hero description. */
+.dark .section-head p,
+.capture .section-head p,
+#capture .section-head p{
+  color:#94A3B8 !important;
+}
