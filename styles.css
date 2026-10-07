@@ -275,3 +275,27 @@ h1 .accent-amber{
   color:inherit;
   font-weight:800;
 }
+
+/* Higher-contrast section kickers on light backgrounds */
+.kicker,
+.eyebrow,
+.section-kicker{
+  color:#1D4ED8 !important;
+  font-weight:800 !important;
+  letter-spacing:.12em;
+}
+
+/* Keep kickers readable when they appear on dark/navy sections */
+.dark .kicker,
+.dark .eyebrow,
+.dark .section-kicker,
+section[style*="background:#0"] .kicker,
+section[style*="background: #0"] .kicker{
+  color:#60A5FA !important;
+}
+
+.hero-copy p strong,
+.hero p strong{
+  color:inherit;
+  font-weight:800;
+}
