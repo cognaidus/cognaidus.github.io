@@ -260,3 +260,7 @@ h2 .accent-amber,
 h1 .accent-amber{
   color:#F59E0B;
 }
+
+/* Additional requested brand emphasis */
+.accent-blue{color:#2563EB !important}
+.accent-amber{color:#F59E0B !important}
