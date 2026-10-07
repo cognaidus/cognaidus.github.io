@@ -1,7 +1,11 @@
-# Cognaidus website — v2
+# Cognaidus website — v3
 
-Snowflake-first static landing page for Cognaidus.
+Snowflake-first landing page using real Cognaidus product screenshots.
 
-Public contact: `cognaidus@gmail.com`
+## Deploy
+Upload the contents of this archive directly to the root of:
+`cognaidus/cognaidus.github.io`
 
-Publish the files in this archive directly to the root of `cognaidus/cognaidus.github.io`.
+GitHub Pages should redeploy automatically after commit.
+
+Contact: cognaidus@gmail.com
