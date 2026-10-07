@@ -202,32 +202,23 @@ footer{padding:24px 0;background:#05111c;border-top:1px solid rgba(255,255,255,.
 }
 section[id]{scroll-margin-top:68px}
 
-/* Exact Cognaidus horizontal logo supplied from the Gradient Brand Identity Board. */
+/* Exact corrected Cognaidus logo supplied by the user.
+   Transparent canvas lets the site's navy background show through. */
 .brand img{
+  width:auto !important;
+  height:38px !important;
+  max-width:190px !important;
+  object-fit:contain !important;
+  object-position:left center !important;
+  display:block !important;
+  background:transparent !important;
+}
+.foot img{
   width:auto !important;
   height:34px !important;
-  object-fit:contain;
-  display:block;
-}
-.foot img{
-  width:auto !important;
-  height:30px !important;
-  object-fit:contain;
-  display:block;
-}
-
-/* Exact logo extracted from the Cognaidus Gradient Brand Identity Board website example. */
-.brand img{
-  width:136px !important;
-  height:47px !important;
+  max-width:180px !important;
   object-fit:contain !important;
   object-position:left center !important;
   display:block !important;
-}
-.foot img{
-  width:136px !important;
-  height:47px !important;
-  object-fit:contain !important;
-  object-position:left center !important;
-  display:block !important;
+  background:transparent !important;
 }
